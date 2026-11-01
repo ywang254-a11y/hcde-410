@@ -1,0 +1,246 @@
+run ,prompt,model,version,timestamp,output,verified,notes
+1,"I am analyzing responses to a usability survey about Instagram Stories. Participants were asked: ""Was it easy to save an Instagram Story as a draft?"" And I got 20 responses:
+1.Yes
+2.no
+3.No
+4.Yes
+5.Maybe
+6.[blank]
+7.yes
+8.no
+9.YES
+10.yes
+11. NO
+12.[one space]
+13.Yes
+14.No
+15.no
+16.yes
+17.maybe
+18.NO
+19.yes
+20.Yes
+
+What percentage of valid responses falls into each answer category? Treat capitalization and surrounding whitespace as irrelevant, and exclude missing responses from the percentage denominator. 
+
+Report the count and percentage for each category, the number of valid and missing responses, and briefly explain how you arrived at your answer. Round percentages to two decimal places.",ChatGPT,GPT-6,2026-11-01 14:32,"Survey Results
+Question: “Was it easy to save an Instagram Story as a draft?”
+Answer Category        Count        Percentage
+Yes        9        50.00%
+No        7        38.89%
+Maybe        2        11.11%
+Total Valid        18        100.00%
+Missing        2        —
+Total Responses        20        —
+
+Distribution of Valid Responses
+Percentage of valid survey responses (n = 18)
+
+
+0%15%30%45%60%YesNoMaybe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Explanation
+I normalized all responses by removing surrounding whitespace and converting text to lowercase. This grouped variations such as “Yes,” “YES,” and “yes” into the same category.
+
+Responses 6 (blank) and 12 (one space) were classified as missing and excluded from the percentage calculations.
+
+There were 18 valid responses and 2 missing responses out of 20 total responses.
+
+Percentages were calculated using:
+\[
+\text{Percentage}=\frac{\text{Category Count}}{18}\times100
+\]
+
+- Yes: 9/18 × 100 = 50.00%
+- No: 7/18 × 100 = 38.89%
+- Maybe: 2/18 × 100 = 11.11%
+Conclusion: Half of the valid respondents (50.00%) found saving an Instagram Story as a draft easy, while 38.89% did not and 11.11% were unsure.",correct,"The response was accurate and detailed, including a table, chart, calculation formulas, explanations, and a clear conclusion. 
+I also took screenshots to preserve the original formatting of the charts and formulas, which may not transfer properly when copied. 
+The screenshots will be included under ""Run 1"" in a3_runs_evidence.pdf."
+2,"I am analyzing responses to a usability survey about Instagram Stories. Participants were asked: ""Was it easy to save an Instagram Story as a draft?"" And I got 20 responses:
+1.Yes
+2.no
+3.No
+4.Yes
+5.Maybe
+6.[blank]
+7.yes
+8.no
+9.YES
+10.yes
+11. NO
+12.[one space]
+13.Yes
+14.No
+15.no
+16.yes
+17.maybe
+18.NO
+19.yes
+20.Yes
+
+What percentage of valid responses falls into each answer category? Treat capitalization and surrounding whitespace as irrelevant, and exclude missing responses from the percentage denominator. 
+
+Report the count and percentage for each category, the number of valid and missing responses, and briefly explain how you arrived at your answer. Round percentages to two decimal places.",ChatGPT,GPT-6,2026-11-01 15:06,"Survey Response Analysis
+After normalizing capitalization and removing surrounding whitespace, the 20 responses fall into three valid categories: Yes, No, and Maybe.
+Results
+Answer category        Count        Percentage
+Yes        9        50.00%
+No        7        38.89%
+Maybe        2        11.11%
+Total valid        18        100.00%
+Missing        2        Excluded
+Total responses        20        
+Distribution of Valid Responses
+18 valid responses, excluding 2 missing responses
+
+
+
+Maybe
+
+No
+
+Yes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Calculation
+The responses were standardized by converting all text to lowercase and trimming surrounding whitespace. Two responses (#6 and #12) contained no meaningful content and were classified as missing.
+
+Percentages were calculated using only the 18 valid responses:
+\[
+\text{Percentage}=\frac{\text{Category count}}{18}\times100
+\]
+
+- Yes: \(9/18\times100=50.00\%\)
+- No: \(7/18\times100=38.89\%\)
+- Maybe: \(2/18\times100=11.11\%\)
+Conclusion
+Half of the valid respondents (50.00%) reported that saving an Instagram Story as a draft was easy. However, 38.89% answered No and 11.11% answered Maybe, suggesting that the draft-saving feature may present usability challenges for some participants.",correct,"The response was accurate and detailed, but slightly more concise than Run 1. 
+It included a table, a donut chart, calculation formulas, and a conclusion, but no separate explanation of the calculation process. 
+Unlike Run 1, the conclusion went beyond reporting numerical results and offered an interpretation, suggesting that the draft-saving feature may present usability challenges for some participants. 
+Screenshots will be included under ""Run 2"" in a3_runs_evidence.pdf to preserve the original formatting."
+3,"I am analyzing responses to a usability survey about Instagram Stories. Participants were asked: ""Was it easy to save an Instagram Story as a draft?"" And I got 20 responses:
+1.Yes
+2.no
+3.No
+4.Yes
+5.Maybe
+6.[blank]
+7.yes
+8.no
+9.YES
+10.yes
+11. NO
+12.[one space]
+13.Yes
+14.No
+15.no
+16.yes
+17.maybe
+18.NO
+19.yes
+20.Yes
+
+What percentage of valid responses falls into each answer category? Treat capitalization and surrounding whitespace as irrelevant, and exclude missing responses from the percentage denominator. 
+
+Report the count and percentage for each category, the number of valid and missing responses, and briefly explain how you arrived at your answer. Round percentages to two decimal places.",ChatGPT,GPT-6,11/1/2026 15:15:00,"Survey Response Analysis
+After normalizing capitalization and surrounding whitespace and excluding missing responses, 18 out of 20 responses are valid.
+Results
+Answer category	Count	Percentage
+Yes	9	50.00%
+No	7	38.89%
+Maybe	2	11.11%
+Total valid	18	100.00%
+
+- Valid responses: 18
+- Missing responses: 2 (responses #6 and #12)
+- Total responses: 20
+Calculation Method
+First, responses were standardized by removing surrounding whitespace and converting text to lowercase. Blank responses and whitespace-only responses were treated as missing.
+
+Percentages were calculated using the 18 valid responses as the denominator:
+\[
+\text{Percentage}=\frac{\text{Category Count}}{18}\times100
+\]
+
+- Yes: \(9/18 \times 100 = 50.00\%\)
+- No: \(7/18 \times 100 = 38.89\%\)
+- Maybe: \(2/18 \times 100 = 11.11\%\)
+Conclusion: Half of the valid respondents found saving an Instagram Story as a draft easy, while 38.89% answered No and 11.11% answered Maybe. This suggests that the draft-saving feature may present usability challenges for some participants.",correct,"The response was accurate but even more concise than Runs 1 and 2. 
+It mainly included a table, a brief explanation of the calculation method with formulas, and a conclusion. 
+Similar to Run 2, the conclusion went beyond reporting numerical results and included a usability interpretation, 
+suggesting that the draft-saving feature may present usability challenges for some participants."
+4,"I am analyzing responses to a usability survey about Instagram Stories. Participants were asked: ""Was it easy to save an Instagram Story as a draft?"" And I got 20 responses:
+1.Yes
+2.no
+3.No
+4.Yes
+5.Maybe
+6.[blank]
+7.yes
+8.no
+9.YES
+10.yes
+11. NO
+12.[one space]
+13.Yes
+14.No
+15.no
+16.yes
+17.maybe
+18.NO
+19.yes
+20.Yes
+
+What percentage of valid responses falls into each answer category? Treat capitalization and surrounding whitespace as irrelevant, and exclude missing responses from the percentage denominator. 
+
+Report the count and percentage for each category, the number of valid and missing responses, and briefly explain how you arrived at your answer. Round percentages to two decimal places.",Claude,Sonnet 5.5,11/1/2026 15:27:00,"Cleaning rules applied: lowercase everything and trim whitespace. Response 6 (blank) and response 12 (a single space) become empty after trimming, so both count as missing.
+
+Tally by response number:
+
+Yes: 1, 4, 7, 9, 10, 13, 16, 19, 20 → 9
+No: 2, 3, 8, 11, 14, 15, 18 → 7
+Maybe: 5, 17 → 2
+Missing: 6, 12 → 2
+
+Check: 9 + 7 + 2 + 2 = 20 ✓
+
+Results
+
+Category	Count	Percentage of valid responses
+Yes	9	9 / 18 = 50.00%
+No	7	7 / 18 = 38.89%
+Maybe	2	2 / 18 = 11.11%
+Total valid	18	100.00%
+Valid responses: 18
+Missing responses: 2 (responses 6 and 12)
+
+How I got there: After normalizing case and whitespace, the 20 responses fall into three real categories plus two empty entries. The one-space response is the easy one to overlook: it looks like an answer but contains no content once trimmed. I removed the two missing entries from the denominator, leaving 18 valid responses, and divided each category count by 18. The percentages sum to exactly 100.00% (50.00 + 38.89 + 11.11).",correct,"The response was accurate and focused more on the data cleaning and counting process. 
+Unlike the previous runs, it listed the response numbers belonging to each category and explained how the counts were obtained, including the treatment of missing values. 
+It also included a results table with percentage calculations, but no separate section for formulas or usability interpretation. The explanation was detailed and made the results easy to verify."

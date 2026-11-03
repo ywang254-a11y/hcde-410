@@ -1,0 +1,8 @@
+Observation,Theme
+[00:20] Participant noticed inconsistent formatting in the survey responses and asked whether she could standardize them before submitting.,Data Quality Awareness
+[00:50] Participant stopped reading the AI response to check whether [one space] was recognized as missing.,Selective Verification
+[01:15] Participant manually counted the responses in each category and compared the counts with ChatGPT's table.,Selective Verification
+[01:28] Participant did not independently recalculate the percentages after confirming the category counts.,Selective Verification
+[02:00] Participant explained that she trusted the answer because it included the expected problem-solving steps.,Trust in AI Calculations
+[02:42] Participant explained that she considers ChatGPT reliable for basic calculations.,Trust in AI Calculations
+[03:01] Participant said she would standardize the survey responses before submitting them if writing the prompt herself.,Data Quality Awareness
